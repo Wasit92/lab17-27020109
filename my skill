@@ -1,0 +1,17 @@
+---
+name: my-skill
+description: Use this skill whenever building or editing pages for the Zor Active men's gym wear website.
+---
+
+1. Brand name is "Zor Active". Tagline is "Train hard. Wear it well."
+2. Tone: confident, direct and motivating. Short sentences. Occasional Urdu touch like "Zor lagao", used sparingly.
+3. Colours (hex only, no others): background #0B0B0C, text #F5F5F5, accent #C6FF00, cards #2A2A2E.
+4. Fonts from Google Fonts: "Oswald" bold uppercase for headings, "Inter" for body text.
+5. Every page must have a sticky nav bar linking all pages, and a footer with Instagram link, WhatsApp number and "© 2026 Zor Active".
+6. The home page must have: a hero with a call-to-action button, a product grid of 8 items in 3 categories (Tees, Shorts, Hoodies), an About section, and an order/contact form.
+7. Write prices as "Rs. 2,499": always "Rs.", always comma separators, no decimals, never "PKR".
+8. Phone numbers are 11 digits starting with 03. Forms must validate this before submitting.
+9. Design mobile-first and make every page responsive.
+10. Use emoji as product images. Do not use external image URLs.
+11. The home page must be named index.html and stay in the root folder. Other pages sit beside it.
+12. Never use lorem ipsum, stock photos, or any colour outside the palette.
