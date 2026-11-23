@@ -491,7 +491,7 @@
     <section class="hero" id="home">
       <div class="hero-inner wrap">
         <p class="eyebrow">Built for the work</p>
-        <h1>Train hard.<br><span>Wear it well.</span></h1>
+        <h1>Zor Active.<br><span>Train hard.</span></h1>
         <p class="hero-copy">Gym essentials that move with you, hold up to the grind, and look sharp outside it.</p>
         <a class="button" href="#products">Shop the drop</a>
       </div>
@@ -617,6 +617,16 @@
             <label for="quantity">Quantity</label>
             <input id="quantity" name="quantity" type="number" min="1" value="1" required>
           </div>
+          <div class="field">
+            <label for="size">Size</label>
+            <select id="size" name="size" required>
+              <option value="" selected disabled>Select a size</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+            </select>
+          </div>
           <div class="field field-wide">
             <label for="order-notes">Anything else? <span>(optional)</span></label>
             <textarea id="order-notes" name="notes" placeholder="Size, colour, or delivery details"></textarea>
@@ -668,6 +678,7 @@
         `Name: ${order.get("name")}`,
         `Phone: ${order.get("phone")}`,
         `Product: ${order.get("product")}`,
+        `Size: ${order.get("size")}`,
         `Quantity: ${order.get("quantity")}`,
         order.get("notes") ? `Details: ${order.get("notes")}` : ""
       ].filter(Boolean).join("\n");
